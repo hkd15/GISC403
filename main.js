@@ -5,7 +5,7 @@ L.control.scale().addTo(map);
 
 
 // REPLACE THIS BLOCK OF CODE WITH YOUR MAPBOX CODE
-const tiles = L.tileLayer('https://api.mapbox.com/draft/styles/v1/gdmckenzie/clu1x5j9h026e01pt45kv83dd/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZ2RtY2tlbnppZSIsImEiOiJjbHNtZjZmdXEwb2h4MmltdGJodXd1MmpyIn0.UrHBVKEcCwL1MBqo8k7bmA', {
+const tiles = L.tileLayer('https://api.mapbox.com/styles/v1/gdmckenzie/clu1x5j9h026e01pt45kv83dd/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZ2RtY2tlbnppZSIsImEiOiJjbHNtZjZmdXEwb2h4MmltdGJodXd1MmpyIn0.UrHBVKEcCwL1MBqo8k7bmA', {
 	maxZoom: 19,
 	tileSize: 512,
     zoomOffset: -1,

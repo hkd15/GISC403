@@ -37,7 +37,7 @@ var geojsonLayer = new L.GeoJSON.AJAX("https://raw.githubusercontent.com/gdmcken
 		color: '#464747',
 		fillOpacity: 0,
 		weight: 0.8,
-		dashArray: '2,2',
+		dashArray: '8,4',
 	});
 geojsonLayer.addTo(map);
 

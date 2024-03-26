@@ -36,8 +36,8 @@ const tiles = L.tileLayer('https://api.mapbox.com/styles/v1/gdmckenzie/clu1x5j9h
 var geojsonLayer = new L.GeoJSON.AJAX("https://raw.githubusercontent.com/gdmckenzie123/GISC403/main/TA.geojson", {
 		color: '#464747',
 		fillOpacity: 0,
-		weight: 0.8,
-		dashArray: '8,4',
+		weight: 0.7,
+		dashArray: '4,2',
 	});
 geojsonLayer.addTo(map);
 

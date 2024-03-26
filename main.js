@@ -34,9 +34,9 @@ const tiles = L.tileLayer('https://api.mapbox.com/styles/v1/gdmckenzie/clu1x5j9h
 // These are the Territorial Authority Polygons that are being accessed from a 3rd party server.
 // Edit the style of these polygons (see: https://leafletjs.com/reference.html#path)
 var geojsonLayer = new L.GeoJSON.AJAX("https://raw.githubusercontent.com/gdmckenzie123/GISC403/main/TA.geojson", {
-		color: 'grey',
+		color: '#68696b',
 		fillOpacity: 0,
-		weight: 0.5,
+		weight: 0.8,
 		dashArray: '2,2',
 	});
 geojsonLayer.addTo(map);
